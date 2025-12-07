@@ -22,3 +22,25 @@ a {
 .text-tertiary {
   color: black;
 }
+
+/* Id selector  */
+
+#box2 {
+  border-radius: 50%;
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+/* Attribute Selector  */
+
+a[target="_blank"] {
+  color: red;
+}
+
+/* Universal selector */
+*{
+    background-color: lightgray;
+    font-family: cursive;
+}
+/* Combined selectors */

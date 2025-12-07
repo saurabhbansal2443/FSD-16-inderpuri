@@ -1,0 +1,21 @@
+/* When using space selector that means we are targeting evenery p tag inside the .parent div */
+/* .parent p {
+  color: red;
+} */
+
+/* > it will only access the direct children  */
+
+/* .parent > p {
+  color: red;
+} */
+
+/* .children>p {
+  color: blue;
+} */
+/* h1,
+p {
+  color: red;
+} */
+.children p + p {
+  color: yellow;
+}
