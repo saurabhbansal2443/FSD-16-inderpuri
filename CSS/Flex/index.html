@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .parent {
+        height: 90vh;
+        width: 90vw;
+        border: 1px solid red;
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .box {
+        height: 20%;
+        width: 20%;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <!-- <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div> -->
+    </div>
+  </body>
+</html>
