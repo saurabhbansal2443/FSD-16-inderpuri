@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff8de;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        border-radius: 12px;
+        height: 80vh;
+        width: 250px;
+        background-color: #aac4f5;
+        padding: 10px;
+      }
+      .imgContainer {
+        height: 50%;
+        width: 100%;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .titleContainer {
+        margin-top: 12px;
+      }
+      .titleContainerText {
+        font-family: Georgia, "Times New Roman", Times, seri;
+      }
+      .priceContainer {
+        margin-top: 6px;
+        display: flex;
+        align-items: center;
+      }
+      .price {
+        color: red;
+      }
+      .compareAtPrice {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration-line: line-through;
+        color: grey;
+      }
+      .discountLabel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 0.8rem;
+        border-radius: 12px;
+        background-color: red;
+        padding: 2px 8px 2px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="imgContainer">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbU79a0usUzympcGp6uWd0RLfUBKUyRqr3kg&s"
+          alt=""
+          height="100%"
+          width="100%"
+        />
+      </div>
+      <div class="titleContainer">
+        <p class="titleContainerText">Luxury Watch</p>
+      </div>
+      <div class="priceContainer">
+        <div class="price">
+          <p>$250</p>
+        </div>
+        <div class="compareAtPrice">
+          <p>$350</p>
+        </div>
+        <div class="discountLabel">
+          <p>28%</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
