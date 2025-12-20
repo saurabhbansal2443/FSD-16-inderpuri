@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px 15px;
+}
+.child {
+  border-radius: 10px;
+}
+
+.one {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: lightcoral;
+}
+.two {
+  background-color: burlywood;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.three {
+  background-color: lightgrey;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.four {
+  background-color: lightsalmon;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.five {
+  background-color: lightskyblue;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.six {
+  background-color: lightseagreen;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.seven {
+  background-color: lightgoldenrodyellow;
+}
+.eight {
+  background-color: lightgray;
+}
